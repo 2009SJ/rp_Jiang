@@ -101,3 +101,17 @@
 .padding-bottom-50 {
     padding-bottom: 50px;
 }
+
+
+.lead {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 350;
+    line-height: 2.2;
+}
+.lead strong{ 
+    font-weight: 700;
+}
+
+.scale-half {
+    transform: scale(0.5)
+}

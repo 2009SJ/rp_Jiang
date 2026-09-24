@@ -23,7 +23,7 @@
             <nav class="navbar navbar-expand-lg nav-background-color" data-bs-theme="dark">
                 <div class="container">
                     <a href="#" class="navbar-brand">
-                        <img src="img/" alt="Waves" class="d-inline-block align-text-top w-50 scale-up">
+                        <img src="img/icon.png" alt="Waves" class="d-inline-block align-text-top w-50 scale-up">
 
                     </a>
 
@@ -82,11 +82,13 @@
                         <h1 class="overview-left-padding">Background</h1>
                         <!-- overview-left-padding - custom padding left side-->
                         <p class="lead overview-font overview-left-padding">
-                            Dugesia tigrina planarians are a freshwater flatworm species known for their regenerative ability. 
-                            Planarians can perform tissue regeneration due to the abundance of neoblasts, or pluripotent adult 
-                            stem cells (ASCs), found in the parenchyma region of the flatworm. The rate of planarian regeneration 
-                            can be manipulated. Sound waves carry energy through media. Studies have shown that low-intensity sound 
-                            waves can non-invasively stimulate cell processes. 
+                            <ul class = "lead">
+                                <li>Stem cell regeneration is the fundamental mechanism for tissue repair</li>
+                                <li>Ultrasound shown <strong>positive correlation</strong> during <strong>tissue regeneration</strong></li>
+                                <li>FDA confirmed as <strong>non-invasive</strong> treatment in 2023</li>
+                                <li>Prior studies focused on cell differentiation, stem cell regeneration</li>
+                            </ul>
+
                         </p>
                     </div>
                 </div>
@@ -95,13 +97,12 @@
                     <div class="col-sm-8 p-3">
                         <h1 class="">Rationale</h1> <!-- overview-left-padding - custom padding left side-->
                         <p class="lead overview-font overview-right-padding">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat. Duis aute irure
-                            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            <ul class ="lead overview-right-padding">
+                                <li><em>Dugesia tigrina</em> serve as a <strong>simple model</strong> to observe stem cells</li>
+                                <li>Abundance of pluripotent <strong>stem cells</strong> form <strong>unpigmented</strong> blastema</li>
+                                <li>Mechanical sound energy leads to greater cellular permeability</li>
+                                <li>Cavitation and microstreaming increases regeneration rate</li>
+                            </ul>
                         </p>
                     </div>
 
@@ -109,25 +110,47 @@
                         <img src="img/watermap.jpg" alt="Water Map" class="img-fluid">
                     </div>
                 </div>
-            </div>
-            <div class="row">
+
+                <div class="row">
                 <div class="col-sm-4 p-3">
-                    <img src="img/phytoplankton-pnas.jpg" alt="Phytoplankton" class="img-fluid">
+                    <img src="img/setup.png" alt="Experiment Setup" class="img-fluid">
                 </div>
                 <div class="col-sm-8 p-3">  
                     <h1 class="overview-left-padding">Methods</h1>
                     <!-- overview-left-padding - custom padding left side-->
                     <p class="lead overview-font overview-left-padding">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure
-                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <ul class="lead">
+                            <li>Prepare cut planaria in petri dishes separated by body region</li>
+                            <li>Expose planaria to direct 70 dB sound exposure for 30 minutes per day</li>
+                            <li>Microscope image capture blastema after every exposure session</li>
+                        </ul>
                     </p>
                 </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-sm-5 p-3">
+                            <h1 class="">Data Collection</h1> <!-- overview-left-padding - custom padding left side-->
+                            <p class="lead overview-font overview-right-padding">
+                                <ul class ="lead overview-right-padding">
+                                    <li>Image processing in ImageJ software</li>
+                                    <li>Downscale images to 8-bit for pixel count</li>
+                                    <li>Enhance saturation 0.15%</li>
+                                    <li>Set threshold > Run particle analysis</li>
+                                </ul>
+                            </p>
+                        </div>
+
+                        <div class="col-sm-3 p-3">
+                            <img src="img/data-collection.png" alt="Data Collection" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 p-3">
+                            <img src="img/image-analysis.png" alt="Image Analysis" class="img-fluid">
+                        </div>
+                </div>
             </div>
+
+            
         </section>
         <footer class="p-5 footer text-light text-center position-relative">
             <div class="container">
