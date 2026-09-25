@@ -115,3 +115,10 @@
 .scale-half {
     transform: scale(0.5)
 }
+
+.squareimg {
+    height: 100px;
+    width: 100px;
+    overflow:hidden;
+    object-fit: cover;
+}
