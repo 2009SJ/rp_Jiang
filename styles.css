@@ -149,14 +149,17 @@
 
 .showcase h1{
     position: absolute;
-    top: 250px;
+    top: 25%;
+    width:100%;
     font-size: 50px;
-    margin-left: 75px;
+    left:50%;
+    transform: translateX(-50%);
     font-weight: 900;
 }
 
 .showcase h2{
     position: absolute;
-    top: 350px;
-    margin-left: 400px;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
 }
