@@ -120,8 +120,8 @@
 }
 
 .squareimg {
-    height: 200px;
-    width: 200px;
+    height: 30vh;
+    width: 30vh;
     overflow:hidden;
     object-fit: cover;
 }
@@ -165,4 +165,8 @@
 
 #navmenu .navbar-nav {
     text-align: right;
+}
+
+.card {
+    max-width: 90vw;
 }
