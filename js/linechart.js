@@ -1,8 +1,7 @@
 // Code for generating a Chart.js line chart
-// Values are temperature differences from the mean of 14 degrees Celsius
-/* Data from: https:// (Zonal annual means 1880-pres)
-Mean from: https://
-*/
+// Values are average blastema measurements of planaria
+// Data from https://docs.google.com/spreadsheets/d/1ZUTmd7XY_4XgVSCBGuJaxCouz2fezp0778C-P5-P0f4/edit?usp=sharing
+
 
 async function getData() {
     const response = await fetch('../data/raw-blastema-data.csv');
